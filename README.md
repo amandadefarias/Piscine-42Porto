@@ -1,172 +1,110 @@
-# 🧠 42 Piscine – C Language & Shell Projects
+<p align="center">
+  <img src="./assets/banner-piscine.jpg" alt="42 Piscine Banner">
+</p>
 
-This repository contains all exercises developed during the **42 Piscine**, an intensive programming bootcamp focused on fundamentals of C, algorithms, memory management, and Unix environment.
+<p align="center">
+  <img src="https://img.shields.io/badge/C-Systems%20Programming-blue?style=for-the-badge&logo=c">
+  <img src="https://img.shields.io/badge/Linux-Unix-orange?style=for-the-badge&logo=linux">
+  <img src="https://img.shields.io/badge/Cybersecurity-Fundamentals-red?style=for-the-badge&logo=hackthebox">
+  <img src="https://img.shields.io/badge/42-School-black?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
-The goal of the Piscine is to build strong foundations in programming through daily hands-on challenges under strict constraints (no external libraries, manual implementations, and deep focus on logic and memory).
+<h1 align="center">🧠 42 Piscine – C Language & Unix Foundations</h1>
+
+<p align="center">
+  <strong>Low-Level Programming as a Foundation for Cybersecurity Thinking</strong>
+</p>
+
+<p align="center">
+  A structured collection of exercises developed during the 42 Piscine, focusing on C programming, memory manipulation, and Unix systems fundamentals — essential building blocks for cybersecurity and systems understanding.
+</p>
 
 ---
 
-## ⭐ Highlights
+## 📖 About
 
-During the 42 Piscine, I developed strong foundations in low-level programming and Unix systems through intensive hands-on practice.
+This repository contains all exercises completed during the 42 Piscine, an intensive programming bootcamp from :contentReference[oaicite:0]{index=0}.
 
-### 💡 Core strengths gained:
-- Solid understanding of **C programming fundamentals**
-- Strong grasp of **pointers and memory manipulation**
-- Ability to implement **algorithms from scratch without libraries**
-- Experience with **recursive problem solving techniques**
-- Proficiency in **string and array manipulation in C**
-- Understanding of **command-line argument handling (argc/argv)**
-- Basic **Unix/Linux environment navigation and tooling**
-- Practical use of **Bash scripting for automation tasks**
+The Piscine is designed to train developers in **low-level thinking, strict coding discipline, and problem-solving under constraints**, with no external libraries and full focus on understanding how software behaves at the system level.
 
-### ⚙️ Programming mindset developed:
-- Writing code under strict constraints (no external libraries)
-- Debugging low-level C programs
-- Breaking problems into small, testable functions
-- Building solutions with performance and memory awareness
-- Working in a disciplined, iterative development process
+From a cybersecurity perspective, this experience builds the foundation to understand:
+- how memory is structured and manipulated
+- how vulnerabilities can emerge from low-level code
+- how Unix systems execute and manage processes
+- how programs behave beyond high-level abstractions
 
-### 🚀 Soft skills:
-- Autonomy in problem solving
-- Persistence under pressure
-- Attention to detail in code correctness
-- Consistency in daily coding practice
+---
+
+## 🎯 Cybersecurity-Oriented Learning Objectives
+
+Throughout this Piscine, I developed core competencies that directly support cybersecurity fundamentals:
+
+### 🧠 Memory & Low-Level Understanding
+- Deep understanding of **stack vs heap memory**
+- Pointer manipulation and memory addressing
+- Manual memory reasoning without abstractions
+- Awareness of memory safety risks (overflow, invalid access)
+
+### ⚙️ C Programming & System Logic
+- Writing C programs without external libraries
+- Building logic from scratch under strict constraints
+- Understanding compilation, linking, and execution flow
+- Debugging segmentation faults and undefined behavior
+
+### 🐚 Unix & System Environment
+- Navigation and control of Unix/Linux systems
+- File permissions and execution contexts
+- Shell scripting for automation
+- Understanding process execution at a system level
+
+### 🔐 Security-Relevant Mindset
+- Recognizing unsafe memory patterns
+- Understanding how low-level bugs can become vulnerabilities
+- Developing attention to detail in input handling
+- Thinking like both developer and attacker (defensive awareness)
+
+---
+
+## 🧩 Technical Skills Demonstrated
+
+### 💻 Systems Programming
+- C language fundamentals
+- Pointers and memory manipulation
+- Stack & heap behavior
+- Static memory vs dynamic allocation
+- Low-level debugging techniques
+
+### 🧪 Algorithmic Thinking
+- Recursion and iteration
+- String and array manipulation
+- Mathematical logic implementation
+- Constraint-based problem solving
+
+### 🐧 Unix & Shell
+- Bash scripting
+- File system operations
+- Permissions and execution rights
+- Command-line workflow
+
+### 🛠️ Software Engineering Discipline
+- Modular code structure
+- Clean function design
+- Strict compilation rules (Werror/Wextra/Wall)
+- Incremental testing and debugging
 
 ---
 
 ## 📁 Project Structure
 
-### 🟦 C00 – Introduction to C
-Basic programming concepts and output functions.
-
-👉 Exercises:
-- [ft_putchar](./C00/ex00)
-- [ft_print_alphabet](./C00/ex01)
-- [ft_print_reverse_alphabet](./C00/ex02)
-- [ft_print_numbers](./C00/ex03)
-- [ft_is_negative](./C00/ex04)
-
----
-
-### 🟦 C01 – Pointers and Memory Basics
-Introduction to memory manipulation and pointers.
-
-👉 Exercises:
-- [ft_ft](./C01/ex00)
-- [ft_ultimate_ft](./C01/ex01)
-- [ft_swap](./C01/ex02)
-- [ft_div_mod](./C01/ex03)
-- [ft_ultimate_div_mod](./C01/ex04)
-- [ft_putstr](./C01/ex05)
-- [ft_strlen](./C01/ex06)
-
----
-
-### 🟦 C02 – Strings in C
-Working with character arrays and string manipulation.
-
-👉 Exercises:
-- [ft_strcpy](./C02/ex00)
-- [ft_strncpy](./C02/ex01)
-- [ft_str_is_alpha](./C02/ex02)
-- [ft_str_is_numeric](./C02/ex03)
-- [ft_str_is_lowercase](./C02/ex04)
-- [ft_str_is_uppercase](./C02/ex05)
-- [ft_str_is_printable](./C02/ex06)
-- [ft_strupcase](./C02/ex07)
-- [ft_strlowcase](./C02/ex08)
-
----
-
-### 🟦 C03 – String Comparison & Concatenation
-Deeper string handling and comparisons.
-
-👉 Exercises:
-- [ft_strcmp](./C03/ex00)
-- [ft_strncmp](./C03/ex01)
-- [ft_strcat](./C03/ex02)
-- [ft_strncat](./C03/ex03)
-
----
-
-### 🟦 C04 – Basic Algorithms & Conversion
-Strings, numbers, and conversions.
-
-👉 Exercises:
-- [ft_strlen](./C04/ex00)
-- [ft_putstr](./C04/ex01)
-- [ft_putnbr](./C04/ex02)
-- [ft_atoi](./C04/ex03)
-
----
-
-### 🟦 C05 – Recursion & Math Algorithms
-Recursive problem solving and mathematical functions.
-
-👉 Exercises:
-- [ft_iterative_factorial](./C05/ex00)
-- [ft_recursive_factorial](./C05/ex01)
-- [ft_iterative_power](./C05/ex02)
-- [ft_recursive_power](./C05/ex03)
-- [ft_fibonacci](./C05/ex04)
-- [ft_sqrt](./C05/ex05)
-
----
-
-### 🟦 C06 – Program Arguments (argc/argv)
-Handling command-line arguments in C.
-
-👉 Exercises:
-- [ft_print_program_name](./C06/ex00)
-- [ft_print_params](./C06/ex01)
-- [ft_rev_params](./C06/ex02)
-
----
-
-### 🐚 Shell Projects – Unix & Bash Basics
-
-Introduction to shell scripting and Unix commands.
-
-👉 Exercises:
-- [Shell 00](./shell_00_)
-- [Shell 01](./shell_01)
-
----
-
-## 🛠️ Skills Acquired
-
-- C programming fundamentals
-- Memory management & pointers
-- String manipulation
-- Recursion & algorithms
-- Unix/Linux environment
-- Bash scripting
-- Problem solving under constraints
-- Debugging low-level programs
-
----
-
-## 🎯 42 Piscine Overview
-
-The 42 Piscine is an intensive selection bootcamp focused on:
-- Autonomy
-- Problem solving
-- Peer evaluation
-- Fast learning under pressure
-- Writing code without external libraries
-
----
-
-## 📌 Status
-
-✔ Completed exercises  
-✔ Organized structure  
-✔ Strong C fundamentals acquired  
-✔ Shell scripting basics completed  
-
----
-
-## 👨‍💻 Author
-
-Developed during the 42 Piscine
+```text
+Piscine/
+├── C00/
+├── C01/
+├── C02/
+├── C03/
+├── C04/
+├── C05/
+├── C06/
+├── shell_00/
+├── shell_01/
